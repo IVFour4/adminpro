@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 
@@ -20,6 +21,8 @@ const pagesRoutes: Routes = [
       {path: 'progress', component: ProgressComponent},
       {path: 'graficas1', component: Graficas1Component},
       {path: 'graficodona', component: GraficoDonaComponent},
+      {path: 'account-settings', component: AccoutSettingsComponent},
+
       {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
 
     ]

@@ -21,6 +21,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 
@@ -33,6 +34,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     ProgressComponent,
     IncrementadorComponent,
     GraficoDonaComponent,
+    AccoutSettingsComponent,
 
 
   ],
