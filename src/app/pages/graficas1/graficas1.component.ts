@@ -3,11 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-graficas1',
   templateUrl: './graficas1.component.html',
-  styleUrls: ['./graficas1.component.css']
+  styles: []
 })
 export class Graficas1Component implements OnInit {
-
-
 
 
   graficos: any = {
@@ -39,7 +37,7 @@ export class Graficas1Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
